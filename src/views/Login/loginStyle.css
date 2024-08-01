@@ -1,0 +1,66 @@
+.login-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+    box-shadow: 0 0 0.5rem 0.5rem #e4d9da;
+  max-width:500px;
+  min-height: 320px;
+  img {
+    opacity: 50%;
+  }
+}
+
+.form-control {
+  background-color: transparent !important;
+  color: white !important;
+}
+
+.form-control:focus {
+  border-color: #dc3545 !important;
+  box-shadow: 0 0 0.2rem 0.2rem #f8a2ab !important;
+}
+
+label {
+  background-color: transparent !important; /* Hacer el label transparente */
+  color: white !important; /* Asegúrate de que el texto del label sea visible */
+}
+
+label::after {
+  content: ""; /* Eliminar el fondo del pseudo-elemento */
+  background-color: transparent !important;
+}
+
+.login-btn {
+  border: solid 1px white !important;
+}
+
+.login-btn:hover {
+  border-color: #dc3545 !important;
+  box-shadow: 0 0 0.2rem 0.2rem #f8a2ab !important;
+}
+
+/* <div className="form-floating mb-3 text-light">
+        <input
+          type="email"
+          className="form-control"
+          id="floatingInput"
+          placeholder="name@example.com"
+        />
+        <label className="floatings" for="floatingInput">
+          Email address
+        </label>
+      </div>
+      <div className="form-floating text-light">
+        <input
+          type="password"
+          className="form-control"
+          id="floatingPassword"
+          placeholder="Password"
+        />
+        <label className="floatings" for="floatingPassword">
+          Password
+        </label>
+      </div> */
