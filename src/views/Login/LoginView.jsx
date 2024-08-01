@@ -5,14 +5,14 @@ import "./loginStyle.css";
 const LoginView = () => {
   return (
     <section className="login-section mt-5">
-      <article className="card text-bg-dark">
+      <article className="login-card text-bg-dark">
         <img
           alt="Cocina"
-          className="card-img"
+          className="login-img"
           src="https://canterasdelmundo.com/wp-content/uploads/2021/06/MESADA-DE-COCINA_htm_5573937e45f1dbe0.jpg"
         />
-        <div className="card-img-overlay">
-          <h1 className="text-center mt-3">Login</h1>
+        <div className="login-content">
+          <h1 className="text-center mt-2">Login</h1>
           <h2 className="text-center fs-5">Welcome back!</h2>
           <LoginForm />
         </div>
