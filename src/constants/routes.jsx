@@ -3,6 +3,7 @@ import RootView from "../views/routing/RootView";
 import AuthViews from "../views/routing/AuthViews";
 import HomeView from "../views/Home/HomeView";
 import LoginView from "../views/Login/LoginView";
+import RegisterView from "../views/Register/RegisterView";
 import PrivateView from "../views/routing/PrivateView";
 
 export const router = createBrowserRouter([
@@ -29,7 +30,7 @@ export const router = createBrowserRouter([
           },
           {
             path: "register",
-            element: <p>Register</p>,
+            element: <RegisterView/>,
           },
         ],
       },

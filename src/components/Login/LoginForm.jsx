@@ -7,10 +7,9 @@ import { useNavigate } from "react-router-dom";
 import { useSession } from "../../stores/useSession";
 
 const LoginForm = () => {
+  const { login } = useSession();
 
-  const {login} = useSession();
-
-const navigate = useNavigate();
+  const navigate = useNavigate();
 
   const {
     register,
