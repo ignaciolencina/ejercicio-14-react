@@ -9,12 +9,16 @@ const Input = ({
   options,
   register,
   placeholder = "Ingrese un texto",
+  maxLenght,
+  minLenght,
 }) => {
   return (
     <fieldset className={`form-floating ${className}`}>
       <input
         className={`form-control ${error ? "is-invalid" : ""}`}
         id={`${name}-input`}
+        maxLength={maxLenght}
+        minLength={minLenght}
         placeholder={placeholder}
         type={type}
         {...register(name, options)}
@@ -39,4 +43,6 @@ Input.propTypes = {
   register: PropTypes.func.isRequired,
   options: PropTypes.object,
   placeholder: PropTypes.string,
+  maxLenght: PropTypes.number.isRequired,
+  minLenght: PropTypes.number.isRequired,
 };

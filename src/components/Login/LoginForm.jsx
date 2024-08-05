@@ -17,21 +17,27 @@ const LoginForm = () => {
       <Input
         error={errors.username}
         label="Username"
+        maxLenght={20}
+        minLenght={3}
         name="username"
         options={{
           required: {
             value: true,
             message: "Obligatory field",
           },
+          length,
           minLenght: 3,
           maxLenght: 20,
         }}
+        placeholder="Username"
         register={register}
       />
       <Input
         className="mt-3"
-        error={errors.username}
+        error={errors.password}
         label="Password"
+        maxLenght={20}
+        minLenght={3}
         name="password"
         options={{
           required: {
@@ -41,6 +47,7 @@ const LoginForm = () => {
           minLenght: 3,
           maxLenght: 20,
         }}
+        placeholder="Password"
         register={register}
         type="password"
       />
