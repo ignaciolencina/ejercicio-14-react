@@ -7,13 +7,13 @@ import { useNavigate } from "react-router-dom";
 import { useSession } from "../../stores/useSession";
 
 const LoginForm = () => {
+  const { login } = useSession();
 
-  const {login} = useSession();
-
-const navigate = useNavigate();
+  const navigate = useNavigate();
 
   const {
     register,
+    reset,
     handleSubmit: onSubmitRHF,
     formState: { errors },
   } = useForm();
@@ -23,6 +23,8 @@ const navigate = useNavigate();
     onSuccess: (userData) => {
       toast.dismiss();
       toast.success(`Welcome ${userData.firstname}!`);
+
+      reset();
 
       login(userData);
 
@@ -37,7 +39,7 @@ const navigate = useNavigate();
   });
 
   const handleSubmit = (data) => {
-    toast.loading();
+    toast.loading("Loading...");
     postLogin(data);
   };
 

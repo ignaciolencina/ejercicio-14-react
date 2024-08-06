@@ -1,0 +1,39 @@
+.password-visible {
+  display: flex;
+  align-items: center;
+}
+
+.custom-checkbox {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 15px;
+  height: 15px;
+  background-color: transparent;
+  border: 2px solid #dc3545; /* Color del borde */
+  border-radius: 4px;
+  position: relative;
+  cursor: pointer;
+}
+
+.custom-checkbox:checked {
+  background-color: #dc3545; /* Color del fondo cuando está marcado */
+}
+
+.custom-checkbox:checked::after {
+  content: "";
+  position: absolute;
+  left: 3px;
+  width: 5px;
+  height: 9px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.custom-label {
+  margin-top: 6px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 13px;
+}
