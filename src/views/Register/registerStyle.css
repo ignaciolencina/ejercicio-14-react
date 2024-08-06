@@ -35,3 +35,15 @@
     border-radius: 0.5rem;
     font-size: 13px;
 }
+
+.input-group {
+    display: flex;
+  }
+  
+  .input-group .form-control {
+    flex: 1;
+  }
+  
+  .input-group .btn {
+    margin-left: -1px; /* Ensure button is directly next to the input */
+  }

@@ -13,6 +13,7 @@ const LoginForm = () => {
 
   const {
     register,
+    reset,
     handleSubmit: onSubmitRHF,
     formState: { errors },
   } = useForm();
@@ -22,6 +23,8 @@ const LoginForm = () => {
     onSuccess: (userData) => {
       toast.dismiss();
       toast.success(`Welcome ${userData.firstname}!`);
+
+      reset();
 
       login(userData);
 
@@ -36,7 +39,7 @@ const LoginForm = () => {
   });
 
   const handleSubmit = (data) => {
-    toast.loading();
+    toast.loading("Loading...");
     postLogin(data);
   };
 

@@ -1,12 +1,20 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "firstname": "Thomas",
-            "lastname": "Kiefer",
-            "username": "kfthomas",
-            "password": "1234Abc",
-            "isAdmin": true
-        }
-    ]
+  "users": [
+    {
+      "id": "1",
+      "firstname": "Thomas",
+      "lastname": "Kiefer",
+      "username": "kfthomas",
+      "password": "1234Abc",
+      "isAdmin": true
+    },
+    {
+      "id": "f462",
+      "firstname": "Ignacio",
+      "lastname": "Lencina",
+      "username": "Nacho",
+      "password": "Abc123",
+      "isAdmin": false
+    }
+  ]
 }
