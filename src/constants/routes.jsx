@@ -7,6 +7,7 @@ import RegisterView from "../views/Register/RegisterView";
 import PrivateView from "../views/routing/PrivateView";
 import AdminView from "../views/Admin/AdminView";
 import DetailView from "../views/Detail/DetailView";
+import Error404View from "../views/Error404/Error404View";
 
 export const router = createBrowserRouter([
   {
@@ -46,6 +47,10 @@ export const router = createBrowserRouter([
             element: <AdminView/>,
           },
         ],
+      },
+      {
+        path: '*',
+        element: <Error404View />,
       },
     ],
   },
