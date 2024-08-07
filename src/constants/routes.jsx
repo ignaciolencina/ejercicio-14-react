@@ -5,6 +5,7 @@ import HomeView from "../views/Home/HomeView";
 import LoginView from "../views/Login/LoginView";
 import RegisterView from "../views/Register/RegisterView";
 import PrivateView from "../views/routing/PrivateView";
+import AdminView from "../views/Admin/AdminView";
 
 export const router = createBrowserRouter([
   {
@@ -41,7 +42,7 @@ export const router = createBrowserRouter([
         children: [
           {
             path: "/admin",
-            element: <p>Admin</p>,
+            element: <AdminView/>,
           },
         ],
       },

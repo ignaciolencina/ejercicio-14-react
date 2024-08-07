@@ -16,5 +16,6 @@
       "password": "Abc123",
       "isAdmin": false
     }
-  ]
+  ],
+  "blogs": []
 }

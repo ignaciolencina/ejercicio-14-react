@@ -11,7 +11,27 @@ const Input = ({
   placeholder = "Ingrese un texto",
   maxLenght,
   minLenght,
+  textarea = false,
 }) => {
+  
+  if (textarea) {
+    return (
+      <fieldset className={`form-floating ${className}`}>
+        <textarea
+          className={`form-control ${error ? "is-invalid" : ""}`}
+          id={`${name}-input`}
+          placeholder={placeholder}
+          type={type}
+          {...register(name, options)}
+        />
+        <label htmlFor={`${name}-input`}>{label}</label>
+        <div className="invalid-feedback">
+          <span className="badge text-bg-danger">{error?.message}</span>
+        </div>
+      </fieldset>
+    );
+  }
+
   return (
     <fieldset className={`form-floating ${className}`}>
       <input
@@ -45,4 +65,5 @@ Input.propTypes = {
   placeholder: PropTypes.string,
   maxLenght: PropTypes.number.isRequired,
   minLenght: PropTypes.number.isRequired,
+  textarea: PropTypes.bool,
 };
