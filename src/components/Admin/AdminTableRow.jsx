@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { deleteBlogFn } from '../../api/blogs';
 import { toast } from 'sonner';
 import Swal from 'sweetalert2';
+import { useBlog } from '../../stores/useBlog';
 
 const AdminTableRow = (props) => {
     const { blog, index } = props;
