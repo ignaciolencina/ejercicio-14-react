@@ -6,6 +6,7 @@ import LoginView from "../views/Login/LoginView";
 import RegisterView from "../views/Register/RegisterView";
 import PrivateView from "../views/routing/PrivateView";
 import AdminView from "../views/Admin/AdminView";
+import DetailView from "../views/Detail/DetailView";
 
 export const router = createBrowserRouter([
   {
@@ -18,7 +19,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "detail/:id",
-        element: <p>Detail</p>,
+        element: <DetailView/>,
       },
 
       {
