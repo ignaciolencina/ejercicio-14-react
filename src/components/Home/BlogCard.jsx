@@ -8,7 +8,7 @@ const BlogCard = (props) => {
     return (
       <div className='card'>
         <img alt={blog.title} className='card-img-top' src={blog.imageUrl} />
-        <div className='card-body'>
+        <div className='card-body space-between'>
           <h5 className='card-title'>{blog.title}</h5>
           <div className='text-end'>
             <Link className='btn btn-dark' to={`/detail/${blog.id}`}>

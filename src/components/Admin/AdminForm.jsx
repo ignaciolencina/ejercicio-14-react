@@ -98,8 +98,8 @@ const AdminForm = () => {
   // ---------------------------------------------
 
   return (
-    <form className='card p-3 bg-light' onSubmit={onSubmitRHF(handleSubmit)}>
-      <h1>Crear nueva entrada</h1>
+    <form className='card p-3 bg-secondary' onSubmit={onSubmitRHF(handleSubmit)}>
+      <h1 className="text-light">Crear nueva entrada</h1>
       <hr />
       {blogToEdit && (
         <div className='alert alert-warning'>

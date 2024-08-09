@@ -33,7 +33,7 @@ const HomeView = () => {
   }
 
   return (
-    <section className='row'>
+    <section className='row g-4'>
       {blogs.map((blog) => (
         <article className='col-12 col-md-4 col-lg-3' key={blog.id}>
           <BlogCard blog={blog} />

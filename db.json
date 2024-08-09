@@ -17,5 +17,36 @@
       "isAdmin": false
     }
   ],
-  "blogs": []
+  "blogs": [
+    {
+      "id": "daed",
+      "title": "Budín de naranja y amapola",
+      "imageUrl": "https://cdn0.recetasgratis.net/es/posts/9/3/5/budin_de_naranja_y_amapola_77539_600.webp",
+      "content": "Las semillas de amapola aportan un gran contenido de fibra y micronutrientes como calcio, potasio y magnesio. Usualmente las encontramos combinadas con limón, en deliciosos, húmedos y esponjosos budines. En esta oportunidad, mantendremos las mismas propiedades y resultado, pero reemplazaremos el limón por otro cítrico también muy utilizado en la pastelería, la naranja. Podrás coronarlo con un sencillo glaseado y decorarlo con más semillitas para adelantar lo que encontraremos dentro. Puedes cortarlo cuando esté frío para congelarlo y disfrutarlo como recién hecho los próximos 3 meses. Podrás adaptar la receta a otros sabores como coco, vainilla, mandarina, pomelo o limón.\n\nSigue leyendo que en RecetasGratis te enseñamos cómo hacer budín de naranja y amapola. ¡A cocinar!"
+    },
+    {
+      "id": "1241",
+      "title": "Torta Bariloche",
+      "imageUrl": "https://cdn0.recetasgratis.net/es/posts/1/3/5/torta_bariloche_77531_600.webp",
+      "content": "Bariloche es una de las ciudades más visitadas de la Patagonia Argentina, es perfecta para visitar en cualquier momento del año, disfrutando de los colores de los cerezos y ciruelos en flor durante la primavera, o de la nieve que corona la cordillera de los Andes en invierno. Además de los hermosos paisajes, Bariloche dispone de una gastronomía imperdible y, por eso, queremos acercar un poco de ella a cada uno de sus hogares. En esta oportunidad, aprenderás a hacer la torta que alterna capas de bizcochuelo húmedo de chocolate, con la clásica crema Bariloche, la cual combina manteca, chocolate y el manjar Argentino, el dulce de leche.\n\nAsimismo, en RecetasGratis te enseñamos cómo hacer la torta bariloche. ¡A cocinar!"
+    },
+    {
+      "id": "68ca",
+      "title": "Torta tres leches",
+      "imageUrl": "https://cdn0.recetasgratis.net/es/posts/0/1/9/torta_tres_leches_8910_600.webp",
+      "content": "La torta tres leches es un postre originario de los países de América Latina y se caracteriza por contener, tal y como indica su nombre, los tres tipos distintos de leche: leche condensada, leche evaporada y crema de leche. La decoración de la receta casera del pastel de tres leches puede variar en función del país y región donde se elabora pero, en general, suelen utilizarse como adornos cerezas, frambuesas, chocolate o canela en polvo.\n\n¿Te preguntas cómo hacer torta tres leches? Pues bien, no te pierdas esta receta de RecetasGratis y aprende los pasos a seguir para elaborar la receta original de la torta tres leches."
+    },
+    {
+      "id": "a86e",
+      "title": "Galletas de avena fáciles y rápidas",
+      "imageUrl": "https://cdn0.recetasgratis.net/es/posts/3/0/3/galletas_de_avena_faciles_y_rapidas_67303_600.webp",
+      "content": "Estas galletas de avena fáciles y rápidas que compartimos en RecetasGratis están muy ricas y se pueden degustar acompañadas con un chocolate calentito o bien un café. Esta receta es ideal para la gente que le guste la avena tanto como a nosotros y que busquen, a su vez, snacks saludables y caseros, ya que la cantidad utilizada de azúcar es mínima y, además, ofrecemos alternativas más sanas.\n\nSi no dispones de mucho tiempo y quieres preparar un dulce sencillo y resultón para desayunar o merendar, prueba esta receta de galletas de avena fáciles de hacer. Quédate con nosotros, descubre cómo hacer galletas de avena y dinos qué te han parecido."
+    },
+    {
+      "id": "b350",
+      "title": "Mini donas",
+      "imageUrl": "https://cdn0.recetasgratis.net/es/posts/4/2/5/mini_donas_77524_600.webp",
+      "content": "Las mini donas son una delicia que les encanta a todos, pequeñas y esponjosas, son perfectas para acompañar el desayuno, la merienda o como un snack en cualquier momento del día. Además, esta elaboración es muy fácil y rápida para preparar en casa.\n\nAsimismo, en RecetasGratis te enseñamos cómo hacer mini donas o mini donuts."
+    }
+  ]
 }
